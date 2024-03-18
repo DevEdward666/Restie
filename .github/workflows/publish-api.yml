@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: '21'
       - name: Install dependencies
-        run: npm install  Restie/RestieHardware/restie
+        run: npm install  Restie/RestieHardware
       - name: Build Ionic React app
         run: npm run build  Restie/RestieHardware/restie
       # - name: Deploy to Hosting Service
